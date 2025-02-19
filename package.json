@@ -1,0 +1,32 @@
+{
+  "name": "macaroons-js",
+  "type": "module",
+  "main": "dist/bundle.js",
+  "browser": "dist/bundle.js",
+  "author": "heavymeta",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "start": "wds --node-resolve --open ."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@web/dev-server": "^0.4.6",
+    "babel-loader": "^9.2.1",
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "stream-browserify": "^3.0.0",
+    "terser-webpack-plugin": "^5.3.11",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "vm-browserify": "^1.1.2",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-node-externals": "^2.5.0"
+  },
+  "description": "",
+  "dependencies": {
+    "macaroons.js": "^0.3.9"
+  }
+}
